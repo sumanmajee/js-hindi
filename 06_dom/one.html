@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     
     <title>DOM learning</title>
+
+    <style>
+        .bg_black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
 </head>
-<body>
-    <div class="bg_black">
-        <h1 class="heading">DOM learning on chai aur code</h1>
+<body class="bg_black">
+    <div>
+        <h1 id="title" class="heading">DOM learning on chai aur code
+            <span style="display: none;">test text</span>
+        </h1>
         <p>Lorem ipsum dolor sit amet consectetur.</p>
     </div>
 </body>
 </html>
+
+<!-- innerText: shows the content which can be seen on browser -->
+<!-- textContent: shows the content which is actually there in file -->
+<!-- innerHTML: shows all the content with html tags -->
